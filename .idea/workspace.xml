@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9913a918-9ceb-4937-b457-3075324a0eaf" name="Changes" comment="pom dependencies added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/files/ReUsableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/files/payload.java" afterDir="false" />
+    <list default="true" id="9913a918-9ceb-4937-b457-3075324a0eaf" name="Changes" comment="first API testing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FirstTestAPICall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +42,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Paulina.Ratynska\Documents\TestingRestAssured\src\main\java\files" />
       <recent name="C:\Users\Paulina.Ratynska\Documents\TestingRestAssured\src\main\java" />
       <recent name="C:\Users\Paulina.Ratynska\Documents\TestingRestAssured\src" />
+      <recent name="C:\Users\Paulina.Ratynska\Documents\TestingRestAssured\src\main\java\files" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Basics">
@@ -68,9 +68,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstTestAPICall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstTestAPICall" />
+      <module name="TestingRestAssured" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Basics" />
+        <item itemvalue="Application.FirstTestAPICall" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -84,7 +92,10 @@
       <option name="presentableId" value="Default" />
       <updated>1661604513727</updated>
       <workItem from="1661604515202" duration="5161000" />
-      <workItem from="1661678847971" duration="950000" />
+      <workItem from="1661678847971" duration="2550000" />
+      <workItem from="1661703695869" duration="663000" />
+      <workItem from="1661784065024" duration="398000" />
+      <workItem from="1661785419855" duration="1426000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <created>1661608460201</created>
@@ -107,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661609145072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first API testing">
+      <created>1661685162481</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661685162481</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st" />
     <MESSAGE value="pom dependencies added" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom dependencies added" />
+    <MESSAGE value="first API testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="first API testing" />
   </component>
 </project>
