@@ -10,6 +10,9 @@ public class JsonParseDummyResponse {
         System.out.println("How many years were used in the database: " + numberOfElementsInJsonArray);
 
         System.out.println("current min Year " + findMinYearInJson(js, numberOfElementsInJsonArray));
+
+        //get Method for String
+        System.out.println(js.getString("data[0].IDNation"));
     }
 
     private static int findMinYearInJson(JsonPath js, int numberOfYears) {

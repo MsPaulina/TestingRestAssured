@@ -29,91 +29,99 @@ public class payload {
 
 public static String yearMultipliedByPopulation(){
 		return "{\n" +
-                "  \"data\": [\n" +
-                "    {\n" +
-                "      \"ID Nation\": \"01000US\",\n" +
-                "      \"Nation\": \"United States\",\n" +
-                "      \"ID Year\": 2020,\n" +
-                "      \"Year\": \"2020\",\n" +
-                "      \"Population\": 326569308,\n" +
-                "      \"Slug Nation\": \"united-states\"\n" +
-                "    },\n" +
-                "    {\n" +
-                "      \"ID Nation\": \"01000US\",\n" +
-                "      \"Nation\": \"United States\",\n" +
-                "      \"ID Year\": 2019,\n" +
-                "      \"Year\": \"2019\",\n" +
-                "      \"Population\": 324697795,\n" +
-                "      \"Slug Nation\": \"united-states\"\n" +
-                "    },\n" +
-                "    {\n" +
-                "      \"ID Nation\": \"01000US\",\n" +
-                "      \"Nation\": \"United States\",\n" +
-                "      \"ID Year\": 2018,\n" +
-                "      \"Year\": \"2018\",\n" +
-                "      \"Population\": 322903030,\n" +
-                "      \"Slug Nation\": \"united-states\"\n" +
-                "    },\n" +
-                "    {\n" +
-                "      \"ID Nation\": \"01000US\",\n" +
-                "      \"Nation\": \"United States\",\n" +
-                "      \"ID Year\": 2017,\n" +
-                "      \"Year\": \"2017\",\n" +
-                "      \"Population\": 321004407,\n" +
-                "      \"Slug Nation\": \"united-states\"\n" +
-                "    },\n" +
-                "    {\n" +
-                "      \"ID Nation\": \"01000US\",\n" +
-                "      \"Nation\": \"United States\",\n" +
-                "      \"ID Year\": 2016,\n" +
-                "      \"Year\": \"2016\",\n" +
-                "      \"Population\": 318558162,\n" +
-                "      \"Slug Nation\": \"united-states\"\n" +
-                "    },\n" +
-                "    {\n" +
-                "      \"ID Nation\": \"01000US\",\n" +
-                "      \"Nation\": \"United States\",\n" +
-                "      \"ID Year\": 2015,\n" +
-                "      \"Year\": \"2015\",\n" +
-                "      \"Population\": 316515021,\n" +
-                "      \"Slug Nation\": \"united-states\"\n" +
-                "    },\n" +
-                "    {\n" +
-                "      \"ID Nation\": \"01000US\",\n" +
-                "      \"Nation\": \"United States\",\n" +
-                "      \"ID Year\": 2014,\n" +
-                "      \"Year\": \"2014\",\n" +
-                "      \"Population\": 314107084,\n" +
-                "      \"Slug Nation\": \"united-states\"\n" +
-                "    },\n" +
-                "    {\n" +
-                "      \"ID Nation\": \"01000US\",\n" +
-                "      \"Nation\": \"United States\",\n" +
-                "      \"ID Year\": 2013,\n" +
-                "      \"Year\": \"2013\",\n" +
-                "      \"Population\": 311536594,\n" +
-                "      \"Slug Nation\": \"united-states\"\n" +
-                "    }\n" +
-                "  ],\n" +
-                "  \"source\": [\n" +
-                "    {\n" +
-                "      \"measures\": [\n" +
-                "        \"Population\"\n" +
-                "      ],\n" +
-                "      \"annotations\": {\n" +
-                "        \"source_name\": \"Census Bureau\",\n" +
-                "        \"source_description\": \"The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.\",\n" +
-                "        \"dataset_name\": \"ACS 5-year Estimate\",\n" +
-                "        \"dataset_link\": \"http://www.census.gov/programs-surveys/acs/\",\n" +
-                "        \"table_id\": \"B01003\",\n" +
-                "        \"topic\": \"Diversity\",\n" +
-                "        \"subtopic\": \"Demographics\"\n" +
-                "      },\n" +
-                "      \"name\": \"acs_yg_total_population_5\",\n" +
-                "      \"substitutions\": []\n" +
-                "    }\n" +
-                "  ]\n" +
-                "}";
+				"  \"data\": [\n" +
+				"    {\n" +
+				"      \"IDNation\": \"01000US\",\n" +
+				"      \"Nation\": \"United States\",\n" +
+				"      \"ID Year\": 2020,\n" +
+				"      \"Year\": \"2020\",\n" +
+				"      \"PKBTotal\": 326569308,\n" +
+				"      \"Population\": 326569308,\n" +
+				"      \"Slug Nation\": \"united-states\"\n" +
+				"    },\n" +
+				"    {\n" +
+				"      \"IDNation\": \"01000US\",\n" +
+				"      \"Nation\": \"United States\",\n" +
+				"      \"ID Year\": 2019,\n" +
+				"      \"Year\": \"2019\",\n" +
+				"      \"PKBTotal\": 279999888889,\n" +
+				"      \"Population\": 324697795,\n" +
+				"      \"Slug Nation\": \"united-states\"\n" +
+				"    },\n" +
+				"    {\n" +
+				"      \"IDNation\": \"01000US\",\n" +
+				"      \"Nation\": \"United States\",\n" +
+				"      \"ID Year\": 2018,\n" +
+				"      \"Year\": \"2018\",\n" +
+				"      \"PKBTotal\": 789999888889,\n" +
+				"      \"Population\": 322903030,\n" +
+				"      \"Slug Nation\": \"united-states\"\n" +
+				"    },\n" +
+				"    {\n" +
+				"      \"IDNation\": \"01000US\",\n" +
+				"      \"Nation\": \"United States\",\n" +
+				"      \"ID Year\": 2017,\n" +
+				"      \"Year\": \"2017\",\n" +
+				"      \"PKBTotal\": 74999923889,\n" +
+				"      \"Population\": 321004407,\n" +
+				"      \"Slug Nation\": \"united-states\"\n" +
+				"    },\n" +
+				"    {\n" +
+				"      \"IDNation\": \"01000US\",\n" +
+				"      \"Nation\": \"United States\",\n" +
+				"      \"ID Year\": 2016,\n" +
+				"      \"Year\": \"2016\",\n" +
+				"      \"PKBTotal\": 569998889,\n" +
+				"      \"Population\": 318558162,\n" +
+				"      \"Slug Nation\": \"united-states\"\n" +
+				"    },\n" +
+				"    {\n" +
+				"      \"IDNation\": \"01000US\",\n" +
+				"      \"Nation\": \"United States\",\n" +
+				"      \"ID Year\": 2015,\n" +
+				"      \"Year\": \"2015\",\n" +
+				"      \"PKBTotal\": 785999985889,\n" +
+				"      \"Population\": 316515021,\n" +
+				"      \"Slug Nation\": \"united-states\"\n" +
+				"    },\n" +
+				"    {\n" +
+				"      \"IDNation\": \"01000US\",\n" +
+				"      \"Nation\": \"United States\",\n" +
+				"      \"ID Year\": 2014,\n" +
+				"      \"Year\": \"2014\",\n" +
+				"      \"PKBTotal\": 459999888889,\n" +
+				"      \"Population\": 314107084,\n" +
+				"      \"Slug Nation\": \"united-states\"\n" +
+				"    },\n" +
+				"    {\n" +
+				"      \"IDNation\": \"01000US\",\n" +
+				"      \"Nation\": \"United States\",\n" +
+				"      \"ID Year\": 2013,\n" +
+				"      \"Year\": \"2013\",\n" +
+				"      \"PKBTotal\": 4566999888889,\n" +
+				"      \"Population\": 311536594,\n" +
+				"      \"Slug Nation\": \"united-states\"\n" +
+				"    }\n" +
+				"  ],\n" +
+				"  \"source\": [\n" +
+				"    {\n" +
+				"      \"measures\": [\n" +
+				"        \"Population\"\n" +
+				"      ],\n" +
+				"      \"annotations\": {\n" +
+				"        \"source_name\": \"Census Bureau\",\n" +
+				"        \"source_description\": \"The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.\",\n" +
+				"        \"dataset_name\": \"ACS 5-year Estimate\",\n" +
+				"        \"dataset_link\": \"http://www.census.gov/programs-surveys/acs/\",\n" +
+				"        \"table_id\": \"B01003\",\n" +
+				"        \"topic\": \"Diversity\",\n" +
+				"        \"subtopic\": \"Demographics\"\n" +
+				"      },\n" +
+				"      \"name\": \"acs_yg_total_population_5\",\n" +
+				"      \"substitutions\": []\n" +
+				"    }\n" +
+				"  ]\n" +
+				"}";
 }
 
 
