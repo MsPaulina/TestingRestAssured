@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import files.payload;
 import io.restassured.path.json.JsonPath;
@@ -19,5 +20,10 @@ public class SumValidation {
 
         }
         System.out.println("total sum: " + sumOfPKBPerCapita);
+        int pkbPerCapitaFromJsonTotalAmt = js.getInt("source[0].sumOfPKBPerCapitaJson");
+        System.out.println("pkbPerCapitaFromJsonTotalAmt " + pkbPerCapitaFromJsonTotalAmt);
+        //Verify if total sum calculated is equals to total sum from JSON
+        Assert.assertEquals(sumOfPKBPerCapita,pkbPerCapitaFromJsonTotalAmt);
+
     }
 }

@@ -28,14 +28,15 @@ public class payload {
 	}
 
 public static String yearMultipliedByPopulation(){
-		return "{\n" +
+		return "\n" +
+				" {\n" +
 				"  \"data\": [\n" +
 				"    {\n" +
 				"      \"IDNation\": \"01000US\",\n" +
 				"      \"Nation\": \"United States\",\n" +
 				"      \"ID Year\": 2020,\n" +
 				"      \"Year\": \"2020\",\n" +
-				"      \"PKBTotal\": 326569308,\n" +
+				"      \"PKBTotal\": 199999888889,\n" +
 				"      \"Population\": 326569308,\n" +
 				"      \"Slug Nation\": \"united-states\"\n" +
 				"    },\n" +
@@ -71,7 +72,7 @@ public static String yearMultipliedByPopulation(){
 				"      \"Nation\": \"United States\",\n" +
 				"      \"ID Year\": 2016,\n" +
 				"      \"Year\": \"2016\",\n" +
-				"      \"PKBTotal\": 569998889,\n" +
+				"      \"PKBTotal\": 569999888889,\n" +
 				"      \"Population\": 318558162,\n" +
 				"      \"Slug Nation\": \"united-states\"\n" +
 				"    },\n" +
@@ -105,6 +106,7 @@ public static String yearMultipliedByPopulation(){
 				"  ],\n" +
 				"  \"source\": [\n" +
 				"    {\n" +
+				"      \"sumOfPKBPerCapitaJson\": 5,\n" +
 				"      \"measures\": [\n" +
 				"        \"Population\"\n" +
 				"      ],\n" +

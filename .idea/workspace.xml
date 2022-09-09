@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9913a918-9ceb-4937-b457-3075324a0eaf" name="Changes" comment="findMinYearInJson method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SumValidation.java" afterDir="false" />
+    <list default="true" id="9913a918-9ceb-4937-b457-3075324a0eaf" name="Changes" comment="Implementation of TestNG test, calculating PKB per capita via json values.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonParseDummyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonParseDummyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SumValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/files/payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/payload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +127,8 @@
       <workItem from="1661874199297" duration="2529000" />
       <workItem from="1662373369240" duration="7262000" />
       <workItem from="1662461498982" duration="2049000" />
-      <workItem from="1662543105408" duration="845000" />
+      <workItem from="1662543105408" duration="1818000" />
+      <workItem from="1662724788050" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <created>1661608460201</created>
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662385108008</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementation of TestNG test, calculating PKB per capita via json values.">
+      <created>1662544225091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662544225091</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +202,7 @@
     <MESSAGE value="first API testing" />
     <MESSAGE value="Dummy Response implemented to return number of years we have in the database" />
     <MESSAGE value="findMinYearInJson method" />
-    <option name="LAST_COMMIT_MESSAGE" value="findMinYearInJson method" />
+    <MESSAGE value="Implementation of TestNG test, calculating PKB per capita via json values." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of TestNG test, calculating PKB per capita via json values." />
   </component>
 </project>
