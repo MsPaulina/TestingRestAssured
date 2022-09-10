@@ -14,7 +14,7 @@ public class DynamicJson {
         //post method
         String responsePostMethod = given()
                 .header("Content-Type", "application/json")
-                .body(payload.AddCountryPostPayloadMethod())
+                .body(payload.AddCountryPostPayloadMethod("001PL","Poland"))
                 .when()
                 .post("Dataset/AddCountry.php")
                 .then()

@@ -124,10 +124,11 @@ public class payload {
                 "}";
     }
 
-    public static String AddCountryPostPayloadMethod() {
+    public static String AddCountryPostPayloadMethod(String IDnation, String nationName) {
+        //variable -> putting double code to end exisiting String " + variable + "
         String payload = "\n" +
-                "      \"IDNation\": \"23\",\n" +
-                "      \"Nation\": \"United States\",\n" +
+                "      \"IDNation\": \""+IDnation+"\",\n" +
+                "      \"Nation\": \""+nationName+"\",\n" +
                 "      \"ID Year\": 2023\n" +
                 "      \"Year\": \"2023\",\n" +
                 "      \"PKBTotal\": 78988889,\n" +

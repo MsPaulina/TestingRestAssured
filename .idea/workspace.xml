@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9913a918-9ceb-4937-b457-3075324a0eaf" name="Changes" comment="Assertion added to verify if total sum calculated is equals to total sum from JSON">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicJson.java" afterDir="false" />
+    <list default="true" id="9913a918-9ceb-4937-b457-3075324a0eaf" name="Changes" comment="DynamicJson added and Post method implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/files/payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/payload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +128,8 @@
       <workItem from="1662373369240" duration="7262000" />
       <workItem from="1662461498982" duration="2049000" />
       <workItem from="1662543105408" duration="1818000" />
-      <workItem from="1662724788050" duration="4199000" />
+      <workItem from="1662724788050" duration="5482000" />
+      <workItem from="1662817331237" duration="733000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <created>1661608460201</created>
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662727552975</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DynamicJson added and Post method implementation">
+      <created>1662733423448</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662733423448</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +219,7 @@
     <MESSAGE value="findMinYearInJson method" />
     <MESSAGE value="Implementation of TestNG test, calculating PKB per capita via json values." />
     <MESSAGE value="Assertion added to verify if total sum calculated is equals to total sum from JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assertion added to verify if total sum calculated is equals to total sum from JSON" />
+    <MESSAGE value="DynamicJson added and Post method implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="DynamicJson added and Post method implementation" />
   </component>
 </project>
