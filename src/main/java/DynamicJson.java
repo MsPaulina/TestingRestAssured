@@ -2,13 +2,14 @@ import files.ReUsableMethods;
 import files.payload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
 
 public class DynamicJson {
 //POST METHOD
-    @Test
+    @Test(dataProvider = "CountryData") //connection to data Provider
     public void addCountry() {
         RestAssured.baseURI = "https://datausa.io/api/data";
         //post method
@@ -26,4 +27,10 @@ public class DynamicJson {
 
         System.out.println((String) js.get("OperationID"));
     }
+
+    @DataProvider(name = "CountryData")
+    public Object[][] getData(){
+        return new Object[][]{{"0100AUS", "Australia"},{"02022HUNG","Hungary"}};
+    }
+
 }
