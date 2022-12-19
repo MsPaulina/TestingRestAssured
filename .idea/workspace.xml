@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9913a918-9ceb-4937-b457-3075324a0eaf" name="Changes" comment="DataProvider implementation">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9913a918-9ceb-4937-b457-3075324a0eaf" name="Changes" comment="Rest assured requests for my computer science degree thesis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicJson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTestAPICall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonParseDummyResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SumValidation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/files/ReUsableMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/files/payload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredRequests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +179,7 @@
       <workItem from="1670836587153" duration="1600000" />
       <workItem from="1670928916408" duration="29000" />
       <workItem from="1671042439816" duration="824000" />
-      <workItem from="1671454827171" duration="3230000" />
+      <workItem from="1671454827171" duration="5026000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <created>1661608460201</created>
@@ -266,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662888008146</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Rest assured requests for my computer science degree thesis">
+      <created>1671458108086</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671458108086</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Rest assured requests for my computer science degree thesis">
+      <created>1671460009243</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671460009243</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +300,7 @@
     <MESSAGE value="DynamicJson added and Post method implementation" />
     <MESSAGE value="finished building dynamically json payload with external data inputs" />
     <MESSAGE value="DataProvider implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataProvider implementation" />
+    <MESSAGE value="Rest assured requests for my computer science degree thesis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest assured requests for my computer science degree thesis" />
   </component>
 </project>

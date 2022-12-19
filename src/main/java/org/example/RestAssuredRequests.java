@@ -26,9 +26,6 @@ public class RestAssuredRequests {
     @BeforeAll
     public static void setup() {
         RestAssured.baseURI = "http://localhost:8080";
-//        report = new ExtentReports(System.getProperty("user.dir") + "ExtentReportResults.html");
-//        System.out.println(System.getProperty("user.dir") + "ExtentReportResults.html");
-//        test = report.startTest("Language School Tests");
     }
 
 
@@ -49,10 +46,6 @@ public class RestAssuredRequests {
                 .extract().response();
 
         System.out.println("The status of First Post COURSE Request received: " + response.statusLine());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Added first course to the database");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if POST method to add German COURSE to the database work");
     }
 
     @Test(priority = 2)
@@ -72,10 +65,6 @@ public class RestAssuredRequests {
                 .extract().response();
 
         System.out.println("The status of Second Post COURSE Request received: " + response.statusLine());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Added second course to the database");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if POST method to add English COURSE to the database work");
     }
 
     @Test(priority = 3)
@@ -95,10 +84,6 @@ public class RestAssuredRequests {
                 .extract().response();
 
         System.out.println("The status of Third Post COURSE Request received: " + response.statusLine());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Added third course to the database");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if POST method to add Italian COURSE to the database work");
     }
 
     @Test(priority = 4)
@@ -120,10 +105,6 @@ public class RestAssuredRequests {
                 .extract().response();
 
         System.out.println("The status of First Post Request to add a new student received: " + response.statusLine());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Added first student to the database");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if POST method to add specific student to the database work");
     }
 
     @Test(priority = 5)
@@ -145,10 +126,6 @@ public class RestAssuredRequests {
                 .extract().response();
 
         System.out.println("The status of Second Post Request to add a new student received: " + response.statusLine());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Added the student to the database");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if POST method to add specific student to the database work");
     }
 
     @Test(priority = 6)
@@ -170,10 +147,6 @@ public class RestAssuredRequests {
                 .extract().response();
 
         System.out.println("TThe status of Third Post Request to add a new student received: " + response.statusLine());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Added the student to the database");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if POST method to add specific student to the database work");
     }
 
     @Test(priority = 7)
@@ -195,10 +168,6 @@ public class RestAssuredRequests {
                 .extract().response();
 
         System.out.println("The status of Fourth Post Request to add a new student received: " + response.statusLine());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Added the student to the database");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if POST method to add specific student to the database work");
     }
 
 
@@ -213,11 +182,6 @@ public class RestAssuredRequests {
                 .assertThat().statusCode(200)
                 .extract().response();
 
-//        Assertions.assertEquals(200, response.statusCode());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Found all available students");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if GET method to get all students work");
         System.out.println("Response Body of findAllStudentsInDatabase is: " + response.asString());
         System.out.println("The status received of findAllStudentsInDatabase: " + response.statusLine());
     }
@@ -235,10 +199,6 @@ public class RestAssuredRequests {
 
         System.out.println("Response Body of getStudentById is: " + response.asString());
         System.out.println("The status of GET method to retrieve specific student by their ID received: " + response.statusLine());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Found the student");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if GET method to get specific student work");
     }
 
 
@@ -262,35 +222,11 @@ public class RestAssuredRequests {
                 .extract().response();
 
         System.out.println("The status of First PUT Request received: " + response.statusLine());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Updated the student");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if PUT method work");
     }
 
-//
-//    @Test
-//    @DisplayName("DELETE method to delete specific student")
-//    public void testcase6() {
-//        Response response = given()
-//                .pathParam("studentIDnumber", 1)
-//                .contentType(ContentType.JSON)
-//                .when()
-//                .delete("/myapi/deleteStudentFromDB/{studentIDnumber}")
-//                .then()
-//                .extract().response();
-//
-//        System.out.println("Response Body of deleteStudentFromDB is: " + response.asString());
-//        System.out.println("The status of DELETE method to retrieve specific student by their ID: " + response.statusLine());
-//        test.getStartedTime();
-//        test.log(LogStatus.PASS, "Delete the student");
-//        test.getEndedTime();
-//        test.setDescription("Test to check if DELETE method to get specific student work");
-//    }
 
     @AfterAll
     public static void endTest() {
-//        report.endTest(test);
-//        report.flush();
+        System.out.println("Test finished.");
     }
 }
