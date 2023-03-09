@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9913a918-9ceb-4937-b457-3075324a0eaf" name="Changes" comment="Rest assured requests for my computer science degree thesis">
+    <list default="true" id="9913a918-9ceb-4937-b457-3075324a0eaf" name="Changes" comment="final changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/features/GuiTests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/steps/GuiSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredRequests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/API/RestAssuredRequests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Project.color&quot;: &quot;51342f&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Paulina.Ratynska/Desktop&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "51342f",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Paulina.Ratynska/Desktop/springBootPracaInzynierska/Testy/Automation",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.customizations"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Paulina.Ratynska\Documents\TestingRestAssured\src\main\java" />
@@ -54,66 +57,83 @@
       <recent name="C:\Users\Paulina.Ratynska\Documents\TestingRestAssured\src\main\java\files" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RestAssuredRequests">
-    <configuration name="RestAssuredRequests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Incorrect login details">
+    <configuration name="Scenario: Admin Login and add new course" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/org/example/features/GuiTests.feature" />
+      <option name="GLUE" value="org.example.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="TestingRestAssured" />
+      <option name="NAME_FILTER" value="^Admin Login and add new course$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Admin Login and add new course$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Admin Login and add new course" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredRequests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestAssuredRequests.testcase10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Admin Login and delete one student" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/org/example/features/GuiTests.feature" />
+      <option name="GLUE" value="org.example.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="TestingRestAssured" />
+      <option name="NAME_FILTER" value="^Admin Login and delete one student$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Admin Login and delete one student$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Admin Login and delete one student" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredRequests" />
-      <option name="METHOD_NAME" value="testcase10" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestAssuredRequests.testcase5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Incorrect login details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/org/example/features/GuiTests.feature" />
+      <option name="GLUE" value="org.example.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="TestingRestAssured" />
+      <option name="NAME_FILTER" value="^Incorrect login details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Incorrect login details$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Incorrect login details" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredRequests" />
-      <option name="METHOD_NAME" value="testcase5" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestAssuredRequests.testcase8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Student Login to check visibility of the buttons" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/org/example/features/GuiTests.feature" />
+      <option name="GLUE" value="org.example.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="TestingRestAssured" />
+      <option name="NAME_FILTER" value="^Student Login to check visibility of the buttons$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Student Login to check visibility of the buttons$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Student Login to check visibility of the buttons" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredRequests" />
-      <option name="METHOD_NAME" value="testcase8" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,12 +142,12 @@
       <module name="TestingRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.API.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredRequests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.API.RestAssuredRequests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -137,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Incorrect login details" />
+        <item itemvalue="Cucumber Java.Scenario: Admin Login and add new course" />
         <item itemvalue="TestNG.RestAssuredRequests" />
-        <item itemvalue="JUnit.RestAssuredRequests" />
-        <item itemvalue="JUnit.RestAssuredRequests.testcase8" />
-        <item itemvalue="JUnit.RestAssuredRequests.testcase10" />
-        <item itemvalue="JUnit.RestAssuredRequests.testcase5" />
+        <item itemvalue="Cucumber Java.Scenario: Student Login to check visibility of the buttons" />
+        <item itemvalue="Cucumber Java.Scenario: Admin Login and delete one student" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +199,23 @@
       <workItem from="1670836587153" duration="1600000" />
       <workItem from="1670928916408" duration="29000" />
       <workItem from="1671042439816" duration="824000" />
-      <workItem from="1671454827171" duration="5026000" />
+      <workItem from="1671454827171" duration="5129000" />
+      <workItem from="1671613029648" duration="272000" />
+      <workItem from="1671710149598" duration="645000" />
+      <workItem from="1671804585554" duration="407000" />
+      <workItem from="1672584856615" duration="542000" />
+      <workItem from="1672837533144" duration="1216000" />
+      <workItem from="1673608549438" duration="814000" />
+      <workItem from="1673620064175" duration="749000" />
+      <workItem from="1673625062283" duration="185000" />
+      <workItem from="1677828457416" duration="4020000" />
+      <workItem from="1678089502929" duration="1340000" />
+      <workItem from="1678195107713" duration="774000" />
+      <workItem from="1678195935391" duration="692000" />
+      <workItem from="1678197079637" duration="1313000" />
+      <workItem from="1678273172754" duration="14477000" />
+      <workItem from="1678300933348" duration="5276000" />
+      <workItem from="1678360217278" duration="1990000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <created>1661608460201</created>
@@ -272,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671460009243</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="final changes">
+      <created>1671463575497</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671463575497</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +344,11 @@
     <MESSAGE value="finished building dynamically json payload with external data inputs" />
     <MESSAGE value="DataProvider implementation" />
     <MESSAGE value="Rest assured requests for my computer science degree thesis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest assured requests for my computer science degree thesis" />
+    <MESSAGE value="final changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="final changes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
